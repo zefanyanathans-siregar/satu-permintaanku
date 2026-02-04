@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Satu Permintaanku</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+    --dark:#1c1c1c;
+    --soft:#2a2a2a;
+    --text:#e6e6e6;
+    --accent:#b71c1c;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+    background:linear-gradient(to bottom, #121212, #1e1e1e);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    overflow-x:hidden;
+}
+
+section{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:80px 20px;
+    text-align:center;
+    opacity:0;
+    animation:fade 2s forwards;
+}
+
+@keyframes fade{
+    to{opacity:1}
+}
+
+h1{
+    font-family:'Playfair Display',serif;
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+p{
+    max-width:620px;
+    font-size:1.05rem;
+    line-height:1.9;
+    color:#cfcfcf;
+}
+
+.memory{
+    margin-top:40px;
+    text-align:left;
+}
+
+.memory div{
+    border-left:2px solid #555;
+    padding-left:15px;
+    margin-bottom:20px;
+    font-size:.95rem;
+    color:#bdbdbd;
+}
+
+.quote{
+    font-style:italic;
+    margin:40px 0;
+    color:#aaa;
+}
+
+.btn{
+    margin-top:40px;
+    padding:14px 40px;
+    border-radius:40px;
+    border:none;
+    cursor:pointer;
+    font-size:.95rem;
+}
+
+.stay{
+    background:var(--accent);
+    color:white;
+}
+
+.go{
+    margin-top:15px;
+    background:transparent;
+    color:#777;
+    border:1px solid #333;
+}
+
+.petals{
+    position:fixed;
+    top:0;left:0;
+    width:100%;height:100%;
+    pointer-events:none;
+    z-index:-1;
+}
+</style>
+</head>
+
+<body>
+
+<div class="petals" id="petals"></div>
+
+<!-- SECTION 1 -->
+<section>
+<h1>Kalau kamu baca ini…</h1>
+<p>
+berarti kamu masih memberi aku sedikit ruang  
+untuk jujur tanpa harus terlihat kuat.
+</p>
+
+<div class="memory">
+<div>Kamu sakit, aku jaga.  
+Bukan karena kewajiban, tapi karena takut kehilangan.</div>
+
+<div>Interview kamu.  
+Aku deg-degan bukan soal diterima, tapi soal masa depan kita.</div>
+
+<div>Ramen sederhana.  
+Lucu ya, sekarang hal sekecil itu terasa mahal.</div>
+</div>
+
+<p class="quote">
+“Aku tidak takut kamu sukses.  
+Aku takut kamu bahagia… tanpa aku.”
+</p>
+</section>
+
+<!-- SECTION 2 -->
+<section>
+<h1>Keputusan ini terlalu cepat</h1>
+<p>
+Aku tahu ini bukan murni keinginanmu.  
+Aku tahu ada <strong>desakan orang tua</strong>,  
+ada harapan yang harus kamu penuhi agar disebut anak yang baik.
+</p>
+
+<p style="margin-top:20px">
+Tapi jujur saja, aku kaget.  
+Semuanya datang begitu dadakan,  
+seolah hidup kita diputuskan dalam satu tarikan napas  
+tanpa aku sempat benar-benar diajak bicara.
+</p>
+
+<p style="margin-top:20px">
+Aku tidak marah pada orang tuamu.  
+Aku hanya terluka karena  
+aku seperti tidak lagi masuk dalam pertimbanganmu.
+</p>
+</section>
+
+<!-- SECTION 3 (LONGTEXT DARI HATI YANG DITINGGAL) -->
+<section>
+    <h1>Aku jujur ya, tanpa kuat-kuatan</h1>
+    
+    <p>
+    Aku tahu ini keputusan kamu.  
+    Aku tahu kamu memang ingin bekerja di Jepang.  
+    Aku tahu keluargamu mendukung penuh,  
+    bahkan memfasilitasi semua yang kamu butuhkan  
+    supaya langkahmu terasa lebih ringan.
+    </p>
+    
+    <p style="margin-top:20px">
+    Aku tidak membenci keputusan itu.  
+    Aku tidak membenci mimpimu.  
+    Aku hanya tidak siap  
+    menjadi orang yang harus ditinggalkan secara sepihak  
+    oleh keputusan yang mengubah hidupku juga.
+    </p>
+    
+    <p style="margin-top:20px">
+    Dua hari ini aku mencoba membujuk,  
+    bukan karena aku ingin mengikatmu,  
+    tapi karena aku sedang berusaha menyelamatkan diriku sendiri  
+    dari rasa kehilangan yang datang terlalu cepat.
+    </p>
+    
+    <p style="margin-top:20px">
+    Dan ketika aku sadar  
+    bahwa keputusanmu tidak akan berubah,  
+    ada bagian dalam diriku yang runtuh pelan-pelan.  
+    Bukan karena aku tidak mendukungmu,  
+    tapi karena aku akhirnya mengerti  
+    bahwa aku harus belajar hidup tanpa kamu  
+    lebih cepat dari yang seharusnya.
+    </p>
+    
+    <p style="margin-top:20px">
+    Lima tahun itu lama.  
+    Bukan cuma angka.  
+    Itu lima kali pergantian tahun tanpa kamu.  
+    Lima tahun dunia berubah  
+    tanpa aku tahu apakah aku masih punya tempat  
+    di hidupmu atau tidak.
+    </p>
+    
+    <p style="margin-top:20px">
+    Aku kehilangan hal-hal kecil  
+    yang selama ini tidak pernah aku sadari nilainya.  
+    Tidak ada lagi yang menyuir ayam buat aku  
+    seolah itu hal paling biasa di dunia.  
+    Tidak ada lagi pelukan diam  
+    saat duniaku sedang tidak baik-baik saja.  
+    Tidak ada lagi tawaran masakan sederhana  
+    yang rasanya selalu lebih hangat  
+    karena datang darimu.
+    </p>
+    
+    <p style="margin-top:20px">
+    Kamu mungkin sedang bersiap mengejar masa depan.  
+    Sementara aku di sini,  
+    belajar merelakan masa kini  
+    yang tiba-tiba kosong.
+    </p>
+    
+    <p style="margin-top:20px">
+    Aku tidak ingin menjadi beban di langkahmu.  
+    Aku tidak ingin kamu menoleh ke belakang  
+    dengan rasa bersalah.  
+    Aku hanya ingin kamu tahu  
+    bahwa kepergianmu bukan hal kecil bagiku.
+    </p>
+    
+    <p style="margin-top:20px">
+    Aku tidak hancur karena kamu memilih mimpi.  
+    Aku hancur karena aku tidak lagi menjadi bagian  
+    dari mimpi itu.
+    </p>
+    
+    <p style="margin-top:20px">
+    Aku tidak tahu bagaimana hidupku lima tahun ke depan.  
+    Yang aku tahu,  
+    aku harus belajar bangun pagi  
+    tanpa pesanmu,  
+    melewati hari tanpa suaramu,  
+    dan menenangkan diriku sendiri  
+    di saat aku biasanya bersandar padamu.
+    </p>
+    
+    <p style="margin-top:20px">
+    Kalau suatu hari nanti kamu rindu,  
+    aku harap itu bukan karena kesepian,  
+    tapi karena kamu benar-benar ingat  
+    bahwa pernah ada seseorang  
+    yang mencintaimu sepenuh ini,  
+    tanpa pernah ingin menghalangimu.
+    </p>
+    
+    <p class="quote">
+    “Aku tidak kehilanganmu karena kamu pergi.  
+    Aku kehilanganmu karena hidup memilih jalan  
+    yang tidak lagi menyertakanku.”
+    </p>
+    
+    <p style="margin-top:20px">
+    Aku tidak tahu apakah aku akan baik-baik saja.  
+    Tapi aku akan mencoba.  
+    Bukan karena aku kuat,  
+    melainkan karena aku tidak punya pilihan lain.
+    </p>
+    
+    <p style="margin-top:20px">
+    Kalau ini adalah titik di mana jalan kita berpisah,  
+    aku hanya ingin kamu melangkah  
+    tanpa melupakan  
+    bahwa ada hati yang hancur  
+    bukan karena kurang cinta,  
+    tapi karena terlalu banyak.
+    </p>
+    </section>
+    
+<!-- SECTION 4 -->
+<section>
+<h1>Pilihannya tetap milikmu</h1>
+<p>
+Aku tidak menulis ini untuk memenjarakanmu.  
+Aku menulis ini supaya kamu tahu  
+apa yang kamu tinggalkan,  
+dan apa yang sebenarnya masih menunggumu di sini.
+</p>
+
+<button class="btn stay" onclick="alert('Aku tetap di sini. Bukan karena lemah, tapi karena aku memilih dengan sadar.')">
+Aku tetap di sini
+</button>
+
+<button class="btn go">
+Aku pergi
+</button>
+</section>
+
+<script>
+function petal(){
+    const p=document.createElement("div");
+    p.innerHTML="🍂";
+    p.style.position="fixed";
+    p.style.left=Math.random()*100+"vw";
+    p.style.fontSize=Math.random()*14+10+"px";
+    p.style.opacity=Math.random();
+    p.style.top="-20px";
+    document.getElementById("petals").appendChild(p);
+
+    let y=-20;
+    const fall=setInterval(()=>{
+        y+=0.25;
+        p.style.top=y+"vh";
+        if(y>100){
+            clearInterval(fall);
+            p.remove();
+        }
+    },20);
+}
+setInterval(petal,700);
+</script>
+
+</body>
+</html>
